@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid gray;
+
+}
+.head-image{
+    width: 30px;
+    height:30px;
+border-radius: 50%;
+border: 2px solid red;
+}
+
+.head{
+    display: flex;
+}
+.header-image{
+    padding: 5px;
+}
+.name{
+    padding-left: 10px;
+}
+.name p{
+    font-size: 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.body-image{
+    width: 100%;
+   
+}
+.body-image img{
+    width: 100%;
+    }
+.icons{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+.likes{
+    display: flex;
+}
+.likes span{
+    padding: 3px 0;
+}
+.likes p{
+    font-size: 14px;
+    padding: 5px;
+}
+.comment p{
+    color: gray;
+    padding: 5px;
+}
+.time p{
+    color: rgb(152, 149, 149);
+    font-size: 12px;
+    padding: 5px;
+}
+.like-name h5{
+    padding: 5px;
+
+}
+.small{
+    display: flex;
+    padding: 5px;
+}
+.small p{
+    padding-left: 8px;
+    color: rgb(66, 63, 63);
+    font-size: 12px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.post p{
+    padding: 5px;
+    font-size: 14px;
+}
